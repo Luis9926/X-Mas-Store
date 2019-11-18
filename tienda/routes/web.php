@@ -11,7 +11,19 @@
 |
 */
 
+
+Route::get('/login', function () {
+    return view('login');
+});
+Route::post('/Registrar', "tiendaController@registrarUsuario");
+
+Route::get('/Calcetin/{id}',"tiendaController@viewCalcetin");
+
+Route::get('/Calcetines', function () {
+    return view('Calcetines');
+
 Route::get('/Home', function () {
     return view('home');
+
 });
 Route::get('/Sweaters', "tiendaController@indexSweaters");
