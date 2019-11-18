@@ -39,7 +39,8 @@
       <div class="row">
         <div class="col">
           <h1>Registrate</h1>
-          <form>
+          <form action="Registrar" method="post">
+            <?= csrf_field()?>
             <div class="form-group row">
               <div class="col-md-10">
                 <input type="text" class="form-control" id="Username" placeholder="Nombre de ususario" autocomplete="off" required>

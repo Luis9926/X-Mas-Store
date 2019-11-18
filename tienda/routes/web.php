@@ -14,4 +14,10 @@
 Route::get('/login', function () {
     return view('login');
 });
-Route::get('/Calcetin/{id_socks}',"tiendaController@viewCalcetin");
+Route::post('/Registrar', "tiendaController@registrarUsuario");
+
+Route::get('/Calcetin/{id}',"tiendaController@viewCalcetin");
+
+Route::get('/Calcetines', function () {
+    return view('Calcetines');
+});

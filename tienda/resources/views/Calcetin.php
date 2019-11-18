@@ -2,7 +2,7 @@
 <html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Calcetin</title>
+    <title>Calcetin <?= e($Calcetin['id'])?></title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script type="text/javascript" src="../js/jquery.js"></script>
     <script type="text/javascript" src="../js/bootstrap.js"></script>
@@ -54,7 +54,7 @@
           <h6><?= e($Calcetin['cantidad_pares'])?></h6>
           <h3>Tamaños</h3>
           <h6><?= e($Calcetin['tamanos'])?></h6>
-          <button class="" type="button" name="button">Comprar</button>
+          <button class="btn-primary" type="button" name="button">Comprar</button>
         </div>
       </div>
     </div>
