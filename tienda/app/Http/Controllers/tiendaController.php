@@ -9,5 +9,9 @@ use App\sweaters;
 
 class tiendaController extends Controller
 {
-    //
+    public function indexSweaters()
+    {
+        $sweaters= sweaters::all();
+        return view("sweatersView",["sweaters"=>$sweaters]);
+    }
 }
