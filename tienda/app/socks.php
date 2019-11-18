@@ -10,5 +10,6 @@ class socks extends Model
         'id','nombre','descripcion','material','tipo_lavado'
         ,'cantidad_pares','tamanos','imagen'
     ];
+
     protected $hidden = [];
 }
