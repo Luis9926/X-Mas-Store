@@ -14,7 +14,7 @@ class Socks extends Migration
     public function up()
     {
         Schema::create('socks', function (Blueprint $table) {
-            $table->integer('id_socks')->autoincrement()->primary();
+            $table->integer('id')->autoincrement()->primary();
             $table->string('nombre',30);
             $table->string('descripcion',120);
             $table->string('material',50);

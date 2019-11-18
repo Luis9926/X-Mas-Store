@@ -14,6 +14,4 @@
 Route::get('/login', function () {
     return view('login');
 });
-Route::get('/Calcetines', function () {
-    return view('Calcetines');
-});
+Route::get('/Calcetin/{id_socks}',"tiendaController@viewCalcetin");

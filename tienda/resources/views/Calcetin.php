@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Calcetin</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script type="text/javascript" src="../js/jquery.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -35,8 +35,28 @@
       </div>
     </nav>
 
-    <div class="container">
-
+    <div class="container" style="padding-top: 5%;">
+      <div class="row">
+        <div class="col-4">
+          <img src="<?= e($Calcetin['imagen'])?>" width="100%;" height="auto;" alt="Error al cargar imagen">
+        </div>
+        <div class="col-8">
+          <h1><?= e($Calcetin['nombre'])?></h1>
+          <h3>Descripcion</h3>
+          <h6><?= e($Calcetin['descripcion'])?></h6>
+          <h3>Material</h3>
+          <h6><?= e($Calcetin['material'])?></h6>
+          <h3>Material</h3>
+          <h6><?= e($Calcetin['nombre'])?></h6>
+          <h3>Tipo de lavado</h3>
+          <h6><?= e($Calcetin['tipo_lavado'])?></h6>
+          <h3>Pares disponibles</h3>
+          <h6><?= e($Calcetin['cantidad_pares'])?></h6>
+          <h3>Tamaños</h3>
+          <h6><?= e($Calcetin['tamanos'])?></h6>
+          <button class="" type="button" name="button">Comprar</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
