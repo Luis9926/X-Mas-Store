@@ -19,7 +19,7 @@
             <a class="nav-link" href="#">Home </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Calcetines.html">Calcetines</a>
+            <a class="nav-link" href="Calcetines">Calcetines</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Suéteres</a>
@@ -40,11 +40,6 @@
         <div class="col">
           <h1>Registrate</h1>
           <form>
-            <div class="form-group row">
-              <div class="col-md-10">
-                <input type="email" class="form-control" id="email" placeholder="Correo" autocomplete="off" required>
-              </div>
-            </div>
             <div class="form-group row">
               <div class="col-md-10">
                 <input type="text" class="form-control" id="Username" placeholder="Nombre de ususario" autocomplete="off" required>

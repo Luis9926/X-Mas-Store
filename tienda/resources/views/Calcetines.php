@@ -25,7 +25,7 @@
             <a class="nav-link" href="#">Suéteres</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="login.html">Login / Sign in</a>
+            <a class="nav-link" href="login">Login / Sign in</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
