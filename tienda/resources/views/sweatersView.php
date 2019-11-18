@@ -24,12 +24,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
 
-      <li class="nav-item active">
-        <a class="nav-link text-light" href="#">Socks</a>
-      </li>
-      <li class="nav-item">
+    <li class="nav-item active">
         <a class="nav-link text-light" href="#">Sweaters</a>
       </li>
+      <li class="nav-item ">
+        <a class="nav-link text-light" href="#">Socks</a>
+      </li>
+     
       <li class="nav-item">
         <a class="nav-link disabled text-light" href="#" tabindex="-1" aria-disabled="true">About Us</a>
       </li>
