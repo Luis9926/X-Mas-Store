@@ -12,12 +12,19 @@
 */
 
 Route::get('/login', function () {
-    return view('login');
+  return view('login');}
+);
+
+Route::get('/Home', function () {
+    return view('home');
 });
+Route::get('/', function () {
+    return view('home');
+});
+Route::get('/Sweaters', "tiendaController@indexSweaters");
+
 Route::post('/Registrar', "tiendaController@registrarUsuario");
 
 Route::get('/Calcetin/{id}',"tiendaController@viewCalcetin");
 
-Route::get('/Calcetines', function () {
-    return view('Calcetines');
-});
+Route::get('/Calcetines',"tiendaController@viewCalcetines");
