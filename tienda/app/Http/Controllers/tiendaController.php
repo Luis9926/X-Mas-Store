@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Auth;
 use App\socks;
 use App\users;
 use App\sweaters;
@@ -11,8 +12,14 @@ use App\sweaters;
 class tiendaController extends Controller
 {
   public function registrarUsuario(){
+      $data = request()->all();
+      $user= new users;
+      $user->username=$data["username"];
+      $user->password=$data["password"];
+      $user->save();
     return redirect('/login');
   }
+
   public function viewCalcetin($id){
     $Calcetin = socks::find($id);
     if($Calcetin)
@@ -28,3 +35,4 @@ class tiendaController extends Controller
         return view("sweatersView",["sweaters"=>$sweaters]);
     }
 
+}

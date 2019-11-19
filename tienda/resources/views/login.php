@@ -39,21 +39,16 @@
       <div class="row">
         <div class="col">
           <h1>Registrate</h1>
-          <form action="Registrar" method="post">
+          <form action="Registrar" method="POST">
             <?= csrf_field()?>
             <div class="form-group row">
               <div class="col-md-10">
-                <input type="text" class="form-control" id="Username" placeholder="Nombre de ususario" autocomplete="off" required>
+                <input type="text" class="form-control" name="username" placeholder="Nombre de ususario" autocomplete="off" required>
               </div>
             </div>
             <div class="form-group row">
               <div class="col-md-10">
-                <input type="password" class="form-control" id="password" placeholder="Contraseña" required>
-              </div>
-            </div>
-            <div class="form-group row">
-              <div class="col-md-10">
-                <input type="password" class="form-control" id="Vpassword" placeholder="Verificar contraseña" required>
+                <input type="password" class="form-control" name="password" placeholder="Contraseña" required>
               </div>
             </div>
             <div class="form-group row">
@@ -79,7 +74,7 @@
             <a href="#">Olvide mi contraseña</a>
             <div class="form-group row">
               <div class="col-md-10">
-                <button type="submit" class="btn btn-primary">Registrarse</button>
+                <button type="submit" class="btn btn-primary">Login</button>
               </div>
             </div>
           </form>
