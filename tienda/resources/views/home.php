@@ -26,6 +26,10 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6b9fbfaed0c0458495e32cf739da904373f6ac86
       <li class="nav-item active">
         <a class="nav-link text-light" href="#">Socks</a>
       </li>
@@ -39,17 +43,31 @@
   </div>
 </nav>
 <h1 align="center" class=" m-5">Christmas Fun For Everyone</h1>
+<<<<<<< HEAD
 <div class="container">
+=======
+<div class="container"> 
+>>>>>>> 6b9fbfaed0c0458495e32cf739da904373f6ac86
 <div class="row">
         <div class="col align-self-center">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSIH-cMZ-vheg_4meMlXzfKi3mYgV2feFlQfVgQh_HeV_E04lfc" alt="">
         </div>
         <div class="col align-self-center">
             <p>
+<<<<<<< HEAD
             Let’s face it, everyone loves ugly Christmas Sweaters. Not only are they fun to wear (and comfortable) but they’re always a huge hit with family, friends, work events or other Christmas parties. They bring smiles and laughter to everyone, and they’re always a great way to bring even more joy during the holiday season. Here at Blizzard Bay, we’re passionate about creating only the very best ugly Christmas sweaters for men, women, boys and girls.
+=======
+            Let’s face it, everyone loves ugly Christmas Sweaters. Not only are they fun to wear (and comfortable) but they’re always a huge hit with family, friends, work events or other Christmas parties. They bring smiles and laughter to everyone, and they’re always a great way to bring even more joy during the holiday season. Here at Blizzard Bay, we’re passionate about creating only the very best ugly Christmas sweaters for men, women, boys and girls. 
+>>>>>>> 6b9fbfaed0c0458495e32cf739da904373f6ac86
             </p>
         </div>
 </div>
 </div>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+
+</body>
+</html>
+>>>>>>> 6b9fbfaed0c0458495e32cf739da904373f6ac86
