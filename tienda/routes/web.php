@@ -28,15 +28,4 @@ Route::post('/Registrar', "tiendaController@registrarUsuario");
 
 //Route::get('/Calcetin/{id}',"tiendaController@viewCalcetin");
 
-<<<<<<< HEAD
 Route::get('/Calcetines',"tiendaController@viewCalcetines");
-=======
-Route::get('/Calcetines', function () {
-    return view('Calcetines');
-
-Route::get('/Home', function () {
-    return view('home');
-
-});
-Route::get('/Sweaters', "tiendaController@indexSweaters");
->>>>>>> 6b9fbfaed0c0458495e32cf739da904373f6ac86
