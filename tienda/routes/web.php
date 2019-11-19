@@ -12,7 +12,7 @@
 */
 
 
-Route::get('/login', function () {
+Route::get('/', function () {
     return view('login');
 });
 
@@ -29,4 +29,5 @@ Route::get('/Home', function () {
 });
 Route::get('/Sweaters', "tiendaController@indexSweaters");
 
+Route::post('/Validate','tiendaController@login')->name('Validate');
 

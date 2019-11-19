@@ -14,7 +14,7 @@ class tiendaController extends Controller
   public function registrarUsuario(){
       $data = request()->all();
       $user= new users;
-      $user->username=$data["username"];
+      $user->username=$data["id"];
       $user->password=$data["password"];
       $user->save();
     return redirect('/login');
@@ -33,6 +33,20 @@ class tiendaController extends Controller
     {
         $sweaters= sweaters::all();
         return view("sweatersView",["sweaters"=>$sweaters]);
+    }
+
+    public function login()
+    {
+      $data = request()->all();
+      
+      $user= users::find($data['username']);
+      if($user['password']==$data['password']){
+        return view('/home');
+      }
+      else{
+        return view('login');
+      }
+
     }
 
 }
