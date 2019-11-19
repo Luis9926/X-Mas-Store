@@ -25,6 +25,6 @@ Route::get('/Sweaters', "tiendaController@indexSweaters");
 
 Route::post('/Registrar', "tiendaController@registrarUsuario");
 
-Route::get('/Calcetin/{id}',"tiendaController@viewCalcetin");
+//Route::get('/Calcetin/{id}',"tiendaController@viewCalcetin");
 
 Route::get('/Calcetines',"tiendaController@viewCalcetines");
